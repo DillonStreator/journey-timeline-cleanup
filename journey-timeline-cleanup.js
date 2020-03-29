@@ -1,9 +1,10 @@
 // ==UserScript==
-// @name         Journey Timeline Cleaner
+// @name         JourneyTimelineCleanup
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Remove upsell modal and ad from Journey timeline
 // @author       Dillon Streator
+// @license MIT
 // @match        https://journey.cloud/timeline
 // @grant        none
 // ==/UserScript==
