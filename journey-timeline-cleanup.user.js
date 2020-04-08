@@ -18,18 +18,13 @@
         }
     }, 100);
 
-    var checkExistAd = setInterval(function() {
-        if ($('.card.timelinex-card.status2.col2').length) {
-            $('.card.timelinex-card.status2.col2')[0].remove()
-            clearInterval(checkExistAd);
-        }
-    }, 100);
-
     (function() {
         var style_rules = [];
 
         style_rules.push(".card.timelinex-card.share.share-other.col2.entry { width: 100% !important }");
         style_rules.push(".day.m-t-25 { max-width: none !important }");
+        style_rules.push(".card.timelinex-card.status2.col2 { display: none !important }");
+        style_rules.push(".card.timelinex-card.status4.col2 { display: none !important }");
 
         var style = '<style type="text/css">' + style_rules.join("\n") + "</style>";
         $("head").append(style);
